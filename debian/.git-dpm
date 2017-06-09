@@ -1,0 +1,11 @@
+# see git-dpm(1) from git-dpm package
+5c27c849c93ef20d11e778a334b09b87c7aa3399
+5c27c849c93ef20d11e778a334b09b87c7aa3399
+5c27c849c93ef20d11e778a334b09b87c7aa3399
+5c27c849c93ef20d11e778a334b09b87c7aa3399
+python-cryptography-vectors_1.7.1.orig.tar.gz
+274afba49a54357b9b7b905bbc04d489cb482bc6
+26652514
+debianTag="debian/%e%v"
+patchedTag="patched/%e%v"
+upstreamTag="upstream/%e%u"
