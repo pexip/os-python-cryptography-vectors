@@ -4,6 +4,7 @@ Bug-Database: https://github.com/pyca/cryptography/issues
 Bug-Submit: https://github.com/pyca/cryptography/issues/new
 Contact: https://mail.python.org/mailman/listinfo/cryptography-dev
 Documentation: https://cryptography.io/en/latest/
+Name: Cryptography
 Registry:
   - Name: PyPI
     Entry: cryptography_vectors
