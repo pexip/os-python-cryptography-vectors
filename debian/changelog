@@ -1,3 +1,10 @@
+python-cryptography-vectors (2.6.1-1pexip2) pexip; urgency=medium
+
+  * Initial bullseye build.
+  * Remove all python2 packaging.
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Mon, 20 Jun 2022 17:03:26 +0100
+
 python-cryptography-vectors (2.6.1-1pexip1) pexip; urgency=medium
 
   * New upstream release (for buster)
