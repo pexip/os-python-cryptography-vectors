@@ -4,6 +4,8 @@
 # 2.0, and the BSD License. See the LICENSE file in the root of this repository
 # for complete details.
 
+from __future__ import absolute_import, division, print_function
+
 import os
 
 from setuptools import find_packages, setup
@@ -19,12 +21,14 @@ with open(os.path.join(base_dir, "cryptography_vectors", "__about__.py")) as f:
 setup(
     name=about["__title__"],
     version=about["__version__"],
+
     description=about["__summary__"],
     license=about["__license__"],
     url=about["__uri__"],
     author=about["__author__"],
     author_email=about["__email__"],
+
     packages=find_packages(),
     zip_safe=False,
-    include_package_data=True,
+    include_package_data=True
 )
