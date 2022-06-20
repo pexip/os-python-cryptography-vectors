@@ -1,3 +1,9 @@
+python-cryptography-vectors (2.6.1-1pexip1) pexip; urgency=medium
+
+  * New upstream release (for buster)
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Mon, 20 Jun 2022 17:02:08 +0100
+
 python-cryptography-vectors (2.6.1-1) unstable; urgency=medium
 
   [ Ondřej Nový ]
