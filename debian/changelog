@@ -1,7 +1,8 @@
-python-cryptography-vectors (2.6.1-1pexip2) pexip; urgency=medium
+python-cryptography-vectors (3.3.2.really.2.6.1-1pexip1) pexip; urgency=medium
 
   * Initial bullseye build.
   * Remove all python2 packaging.
+  * Supercede bullseye versioning.
 
  -- Mark Hymers <mark.hymers@pexip.com>  Mon, 20 Jun 2022 17:03:26 +0100
 
