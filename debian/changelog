@@ -1,3 +1,9 @@
+python-cryptography-vectors (38.0.0-1) UNRELEASED; urgency=medium
+
+  * New upstream version 38.0.0
+
+ -- Claudius Heine <ch@denx.de>  Wed, 07 Sep 2022 14:01:03 +0200
+
 python-cryptography-vectors (3.4.8-1) unstable; urgency=medium
 
   [ Simon Chopin ]
