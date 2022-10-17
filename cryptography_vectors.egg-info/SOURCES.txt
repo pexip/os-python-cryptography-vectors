@@ -2239,6 +2239,7 @@ cryptography_vectors/x509/custom/cp_user_notice_no_explicit_text.pem
 cryptography_vectors/x509/custom/cp_user_notice_with_explicit_text.pem
 cryptography_vectors/x509/custom/cp_user_notice_with_notice_reference.pem
 cryptography_vectors/x509/custom/crl_all_reasons.pem
+cryptography_vectors/x509/custom/crl_almost_10k.pem
 cryptography_vectors/x509/custom/crl_bad_version.pem
 cryptography_vectors/x509/custom/crl_delta_crl_indicator.pem
 cryptography_vectors/x509/custom/crl_dup_entry_ext.pem
