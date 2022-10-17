@@ -22,8 +22,8 @@ Depends:
  ${python3:Depends},
  ${shlibs:Depends},
 Breaks:
- python3-cryptography (<< 38.0.0~),
- python3-cryptography (>= 38.0.1~),
+ python3-cryptography (<< 38.0.2~),
+ python3-cryptography (>= 38.0.3~),
 Description: Test vectors for python-cryptography (Python 3)
  The test vectors for the cryptography library are rather large; thus, they are
  broken out into their own package so that users who do not need to run the

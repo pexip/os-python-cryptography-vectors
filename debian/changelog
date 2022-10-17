@@ -1,6 +1,6 @@
-python-cryptography-vectors (38.0.0-1) UNRELEASED; urgency=medium
+python-cryptography-vectors (38.0.2-1) UNRELEASED; urgency=medium
 
-  * New upstream version 38.0.0
+  * New upstream version 38.0.2
 
  -- Claudius Heine <ch@denx.de>  Wed, 07 Sep 2022 14:01:03 +0200
 
