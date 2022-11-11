@@ -1,3 +1,2 @@
-# There is no upstream changelog for this package, and due to its nature, it is
-# unlikely that there will ever be one.
-python3-cryptography-vectors: no-upstream-changelog
+# These are test vectors, not documentation.
+python3-cryptography-vectors: package-contains-documentation-outside-usr-share-doc
