@@ -1,2 +1,0 @@
-# This is a support package for cryptography tests, it has none of its own
-python-cryptography-vectors source: testsuite-autopkgtest-missing

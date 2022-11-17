@@ -2,4 +2,4 @@
 export PYBUILD_NAME=cryptography-vectors
 
 %:
-	dh $@ --with python2,python3 --buildsystem=pybuild
+	dh $@ --buildsystem=pybuild
