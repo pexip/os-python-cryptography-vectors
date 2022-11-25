@@ -1,0 +1,56 @@
+diff --git a/PKG-INFO b/PKG-INFO
+index 49cc00d..65bf720 100644
+--- a/PKG-INFO
++++ b/PKG-INFO
+@@ -1,6 +1,6 @@
+ Metadata-Version: 2.1
+ Name: cryptography_vectors
+-Version: 38.0.2
++Version: 39.0.0.dev1
+ Summary: Test vectors for the cryptography package.
+ Home-page: https://github.com/pyca/cryptography
+ Author: The Python Cryptographic Authority and individual contributors
+diff --git a/cryptography_vectors.egg-info/PKG-INFO b/cryptography_vectors.egg-info/PKG-INFO
+index 385c688..1c0fbcd 100644
+--- a/cryptography_vectors.egg-info/PKG-INFO
++++ b/cryptography_vectors.egg-info/PKG-INFO
+@@ -1,6 +1,6 @@
+ Metadata-Version: 2.1
+ Name: cryptography-vectors
+-Version: 38.0.2
++Version: 39.0.0.dev1
+ Summary: Test vectors for the cryptography package.
+ Home-page: https://github.com/pyca/cryptography
+ Author: The Python Cryptographic Authority and individual contributors
+diff --git a/cryptography_vectors/__about__.py b/cryptography_vectors/__about__.py
+index b95c008..95eb6b9 100644
+--- a/cryptography_vectors/__about__.py
++++ b/cryptography_vectors/__about__.py
+@@ -6,4 +6,4 @@ __all__ = [
+     "__version__",
+ ]
+ 
+-__version__ = "38.0.2"
++__version__ = "39.0.0.dev1"
+diff --git a/setup.cfg b/setup.cfg
+index c3a4df3..99faeff 100644
+--- a/setup.cfg
++++ b/setup.cfg
+@@ -7,15 +7,12 @@ url = https://github.com/pyca/cryptography
+ author = The Python Cryptographic Authority and individual contributors
+ author_email = cryptography-dev@python.org
+ 
++
+ [options]
+ zip_safe = False
+ include_package_data = True
+ packages = find:
+ 
++
+ [bdist_wheel]
+ universal = 1
+-
+-[egg_info]
+-tag_build = 
+-tag_date = 0
+-
