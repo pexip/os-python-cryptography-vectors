@@ -29,6 +29,8 @@ cryptography_vectors/KDF/rfc-5869-HKDF-SHA1.txt
 cryptography_vectors/KDF/rfc-5869-HKDF-SHA256.txt
 cryptography_vectors/KDF/rfc-6070-PBKDF2-SHA1.txt
 cryptography_vectors/KDF/scrypt.txt
+cryptography_vectors/__pycache__/__about__.cpython-310.pyc
+cryptography_vectors/__pycache__/__init__.cpython-310.pyc
 cryptography_vectors/asymmetric/DER_Serialization/dsa.1024.der
 cryptography_vectors/asymmetric/DER_Serialization/dsa.2048.der
 cryptography_vectors/asymmetric/DER_Serialization/dsa.3072.der
@@ -639,6 +641,7 @@ cryptography_vectors/x509/bigoid.pem
 cryptography_vectors/x509/cryptography-scts-tbs-precert.der
 cryptography_vectors/x509/cryptography-scts.pem
 cryptography_vectors/x509/cryptography.io.chain.pem
+cryptography_vectors/x509/cryptography.io.chain_with_garbage.pem
 cryptography_vectors/x509/cryptography.io.old_header.pem
 cryptography_vectors/x509/cryptography.io.pem
 cryptography_vectors/x509/cryptography.io.precert.pem
