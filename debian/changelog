@@ -1,3 +1,9 @@
+python-cryptography-vectors (39.0.0-0pexip3) pexip-bookworm; urgency=medium
+
+  * Initial bookworm build
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Thu, 16 Nov 2023 10:22:50 +0000
+
 python-cryptography-vectors (39.0.0-0pexip2) pexip; urgency=medium
 
   * Merge openssl3 changes to bullseye
