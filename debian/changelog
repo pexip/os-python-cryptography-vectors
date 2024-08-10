@@ -1,0 +1,377 @@
+python-cryptography-vectors (43.0.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Add myself to Uploaders.
+  * Bump Standards-Version to 4.7.0.
+  * Drop unused ${shlibs:Depends}.
+
+ -- Andrey Rakhmatullin <wrar@debian.org>  Sun, 11 Aug 2024 00:16:03 +0500
+
+python-cryptography-vectors (42.0.5-2) unstable; urgency=medium
+
+  * Team upload
+  * Test: autopkgtest-pkg-python instead of hand-made equivalent
+  * Fix Breaks python3-cryptography != 42.0.5
+
+ -- Jérémy Lal <kapouer@melix.org>  Tue, 19 Mar 2024 11:09:31 +0100
+
+python-cryptography-vectors (42.0.5-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Adopt package. Add myself as Uploaders. Closes: #1064977.
+  * watch file standard 4 (routine-update)
+  * d/control: Remove python3-setuptools as B-Depends and add flit.
+
+ -- Emmanuel Arias <eamanu@debian.org>  Fri, 15 Mar 2024 20:37:40 -0300
+
+python-cryptography-vectors (41.0.7-2) unstable; urgency=medium
+
+  * orphan
+
+ -- Sandro Tosi <morph@debian.org>  Wed, 28 Feb 2024 12:21:26 -0500
+
+python-cryptography-vectors (41.0.7-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 41.0.7
+  * pypi no longer offers signing-key.asc
+  * watch: mangle tarball name
+  * b-depends: pybuild-plugin-pyproject
+  * copyright: dual-license Apache-2.0 or BSD-3-clause
+
+  [ Sandro Tosi ]
+  * debian/control
+    - add myself to uploaders, so i can monitor this package along with
+      cryptography
+    - Make the team the Maintainer (Tristan retired, Closes:1041177).
+
+ -- Jérémy Lal <kapouer@melix.org>  Sun, 07 Jan 2024 12:18:08 +0100
+
+python-cryptography-vectors (38.0.4-1) unstable; urgency=medium
+
+  [ Claudius Heine ]
+  * New upstream version 38.0.4
+
+  [ Debian Janitor ]
+  * Update standards version to 4.6.1, no changes needed.
+
+ -- Sandro Tosi <morph@debian.org>  Wed, 14 Dec 2022 20:20:27 -0500
+
+python-cryptography-vectors (3.4.8-1) unstable; urgency=medium
+
+  [ Simon Chopin ]
+  * New upstream release.
+
+  [ Tristan Seligmann ]
+  * Update standards version to 4.6.0, no changes needed.
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Wed, 01 Dec 2021 17:22:07 +0200
+
+python-cryptography-vectors (3.3.2-1) unstable; urgency=high
+
+  * New upstream release.
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Wed, 10 Feb 2021 10:09:13 +0200
+
+python-cryptography-vectors (3.3.1-1) unstable; urgency=medium
+
+  [ Sandro Tosi ]
+  * Use the new Debian Python Team contact name and address
+
+  [ Tristan Seligmann ]
+  * New upstream release.
+  * Remove obsolete field Name from debian/upstream/metadata (already present in
+    machine-readable debian/copyright).
+  * Add trivial DEP-8 test.
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Mon, 25 Jan 2021 16:39:48 +0200
+
+python-cryptography-vectors (3.2.1-1) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * d/control: Update Vcs-* fields with new Debian Python Team Salsa
+    layout.
+
+  [ Tristan Seligmann ]
+  * New upstream release.
+  * Fix Lintian overrides.
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Sat, 31 Oct 2020 10:23:25 +0200
+
+python-cryptography-vectors (3.1-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Sat, 29 Aug 2020 14:57:35 +0200
+
+python-cryptography-vectors (3.0-2) unstable; urgency=medium
+
+  * Add versioned Breaks: on python-cryptography to (hopefully) ease
+    migration to testing.
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Wed, 05 Aug 2020 11:58:40 +0200
+
+python-cryptography-vectors (3.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Tue, 21 Jul 2020 10:18:56 +0200
+
+python-cryptography-vectors (2.9.2-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump debhelper-compat to 13.
+  * Bump Standards-Version to 4.5.0 (no changes).
+  * Switch to dh-sequence-python3.
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Sat, 18 Jul 2020 11:48:08 +0200
+
+python-cryptography-vectors (2.8-2) unstable; urgency=medium
+
+  * Drop python2 support; Closes: #937673
+
+ -- Sandro Tosi <morph@debian.org>  Sat, 04 Apr 2020 20:25:56 -0400
+
+python-cryptography-vectors (2.8-1) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * Use debhelper-compat instead of debian/compat.
+
+  [ Tristan Seligmann ]
+  * New upstream release.
+  * Minimize upstream/signing-key.asc.
+  * Bump Standards-Version to 4.4.1 (no changes).
+  * Bump debhelper-compat to 12 (no changes).
+  * Allow rootless builds.
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Wed, 29 Jan 2020 16:09:15 +0200
+
+python-cryptography-vectors (2.6.1-1) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * Convert git repository from git-dpm to gbp layout
+
+  [ Tristan Seligmann ]
+  * New upstream release.
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Fri, 08 Mar 2019 20:38:16 +0200
+
+python-cryptography-vectors (2.3-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-Version to 4.1.5 (no changes).
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Sat, 28 Jul 2018 05:28:32 +0200
+
+python-cryptography-vectors (2.2.2-1) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * d/control: Set Vcs-* to salsa.debian.org
+  * d/copyright: Use https protocol in Format field
+  * d/control: Remove ancient X-Python3-Version field
+  * d/control: Remove ancient XS-Python-Version field
+
+  [ Tristan Seligmann ]
+  * New upstream release.
+  * Populate debian/upstream/metadata.
+  * Bump Standards-Version to 4.1.4 (no changes).
+  * Bump debhelper compat level to 11.
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Sat, 09 Jun 2018 16:14:03 +0200
+
+python-cryptography-vectors (2.1.4-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Add DPMT to Uploaders.
+  * Bump Standards-Version to 4.1.2 (no changes).
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Mon, 11 Dec 2017 13:09:01 +0200
+
+python-cryptography-vectors (2.1.3-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Use https in debian/watch.
+  * Bump Standards-Version to 4.1.1 (no changes needed).
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Thu, 16 Nov 2017 21:16:29 +0200
+
+python-cryptography-vectors (1.9-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Ignore Lintian warning about missing autopkgtest testsuite.
+  * Bump Standards-Version to 4.0.0 (no changes needed).
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Tue, 20 Jun 2017 19:00:58 +0200
+
+python-cryptography-vectors (1.7.1-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Wed, 14 Dec 2016 07:51:30 +0200
+
+python-cryptography-vectors (1.5.3-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Tue, 08 Nov 2016 05:08:12 +0200
+
+python-cryptography-vectors (1.5.2-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Sat, 01 Oct 2016 17:25:22 +0200
+
+python-cryptography-vectors (1.5-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Fri, 26 Aug 2016 17:59:54 +0200
+
+python-cryptography-vectors (1.4-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Thu, 23 Jun 2016 00:06:59 +0200
+
+python-cryptography-vectors (1.3.4-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-Version to 3.9.8 (no changes).
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Fri, 03 Jun 2016 15:01:37 +0200
+
+python-cryptography-vectors (1.3.1-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Wed, 06 Apr 2016 22:28:17 +0200
+
+python-cryptography-vectors (1.2.3-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-Version to 3.9.7 (no changes).
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Sat, 05 Mar 2016 05:15:13 +0200
+
+python-cryptography-vectors (1.2.2-1) unstable; urgency=medium
+
+  * New upstream version.
+  * Switch Vcs-Git to https.
+  * Add lintian overrides for no-upstream-changelog.
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Thu, 04 Feb 2016 07:05:16 +0200
+
+python-cryptography-vectors (1.2.1-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Sat, 23 Jan 2016 04:16:27 +0200
+
+python-cryptography-vectors (1.1.1-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Tue, 24 Nov 2015 22:42:30 +0200
+
+python-cryptography-vectors (1.1-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Thu, 29 Oct 2015 08:23:55 +0200
+
+python-cryptography-vectors (1.0.2-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Mon, 28 Sep 2015 06:33:39 +0200
+
+python-cryptography-vectors (1.0.1-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Wed, 09 Sep 2015 12:28:51 +0200
+
+python-cryptography-vectors (1.0-2) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Sun, 30 Aug 2015 01:38:53 +0200
+
+python-cryptography-vectors (1.0-1) experimental; urgency=medium
+
+  * New upstream release.
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Thu, 13 Aug 2015 10:14:40 +0200
+
+python-cryptography-vectors (0.9.3-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Thu, 14 May 2015 04:14:21 +0200
+
+python-cryptography-vectors (0.8.2-2) unstable; urgency=medium
+
+  * Reupload to unstable (no changes).
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Tue, 28 Apr 2015 16:27:54 +0200
+
+python-cryptography-vectors (0.8.2-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Sat, 11 Apr 2015 03:47:18 +0200
+
+python-cryptography-vectors (0.8-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Mon, 09 Mar 2015 01:58:12 +0200
+
+python-cryptography-vectors (0.7.2-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Fri, 16 Jan 2015 16:19:39 +0200
+
+python-cryptography-vectors (0.7.1-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Mon, 29 Dec 2014 03:51:02 +0200
+
+python-cryptography-vectors (0.7-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Thu, 18 Dec 2014 16:32:20 +0200
+
+python-cryptography-vectors (0.6.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-Version to 3.9.6 (no changes).
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Thu, 16 Oct 2014 06:27:17 +0200
+
+python-cryptography-vectors (0.6-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Tue, 30 Sep 2014 06:26:14 +0200
+
+python-cryptography-vectors (0.5.4-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Thu, 21 Aug 2014 16:11:04 +0200
+
+python-cryptography-vectors (0.5.2-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Sun, 27 Jul 2014 05:21:27 +0200
+
+python-cryptography-vectors (0.4-1) unstable; urgency=medium
+
+  * Initial release (Closes: #742911).
+
+ -- Tristan Seligmann <mithrandi@debian.org>  Sun, 15 Jun 2014 20:51:00 +0200

@@ -1,0 +1,2 @@
+# These are test vectors, not documentation.
+python3-cryptography-vectors: package-contains-documentation-outside-usr-share-doc
