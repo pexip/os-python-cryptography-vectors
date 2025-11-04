@@ -1,3 +1,9 @@
+python-cryptography-vectors (46.0.3-0+pexip25u3) pexip-trixie; urgency=medium
+
+  * d/control: fixup package breaks
+
+ -- Huw Jones <huw@pexip.com>  Tue, 04 Nov 2025 18:46:20 +0000
+
 python-cryptography-vectors (46.0.3-0+pexip25u2) pexip-trixie; urgency=medium
 
   * Revert build system back to flit
