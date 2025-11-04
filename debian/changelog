@@ -1,6 +1,7 @@
-python-cryptography-vectors (43.0.0-1+pexip25u1) pexip-trixie; urgency=medium
+python-cryptography-vectors (46.0.3-0+pexip25u1) pexip-trixie; urgency=medium
 
   * New upstream release.
+  * Import 46.0.3 from pypi
 
  -- Huw Jones <huw@pexip.com>  Tue, 04 Nov 2025 14:10:43 +0000
 
