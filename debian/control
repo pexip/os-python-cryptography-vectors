@@ -1,6 +1,7 @@
 Source: python-cryptography-vectors
-Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Uploaders:
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Debian Python Team <team+python@tracker.debian.org>
+XSBC-Pexip-Original-Uploaders:
  Emmanuel Arias <eamanu@debian.org>,
  Andrey Rakhmatullin <wrar@debian.org>
 Section: python
