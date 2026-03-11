@@ -69,6 +69,42 @@ python-cryptography-vectors (41.0.7-1) unstable; urgency=medium
 
  -- Jérémy Lal <kapouer@melix.org>  Sun, 07 Jan 2024 12:18:08 +0100
 
+python-cryptography-vectors (39.0.0-0+pexip24u5) pexip-bookworm; urgency=medium
+
+  * New versioning scheme
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Thu, 01 Feb 2024 16:21:17 +0000
+
+python-cryptography-vectors (39.0.0-0pexip4) pexip-bookworm; urgency=medium
+
+  * Bookworm build for product distribution
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Sat, 09 Dec 2023 22:57:22 +0000
+
+python-cryptography-vectors (39.0.0-0pexip3) pexip-bookworm; urgency=medium
+
+  * Initial bookworm build
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Thu, 16 Nov 2023 10:22:50 +0000
+
+python-cryptography-vectors (39.0.0-0pexip2) pexip; urgency=medium
+
+  * Merge openssl3 changes to bullseye
+
+ -- John-Mark Bell <jmb@pexip.com>  Fri, 27 Jan 2023 12:09:40 +0000
+
+python-cryptography-vectors (39.0.0-0pexip1) pexip-bullseye-openssl3; urgency=medium
+
+  * New upstream release
+
+ -- John-Mark Bell <jmb@pexip.com>  Thu, 26 Jan 2023 16:39:39 +0000
+
+python-cryptography-vectors (38.0.4-1pexip1) pexip-bullseye-openssl3; urgency=medium
+
+  * New upstream release
+
+ -- John-Mark Bell <jmb@pexip.com>  Thu, 26 Jan 2023 16:33:47 +0000
+
 python-cryptography-vectors (38.0.4-1) unstable; urgency=medium
 
   [ Claudius Heine ]
@@ -78,6 +114,12 @@ python-cryptography-vectors (38.0.4-1) unstable; urgency=medium
   * Update standards version to 4.6.1, no changes needed.
 
  -- Sandro Tosi <morph@debian.org>  Wed, 14 Dec 2022 20:20:27 -0500
+
+python-cryptography-vectors (3.4.8-1pexip1) pexip; urgency=medium
+
+  * New upstream release
+
+ -- John-Mark Bell <jmb@pexip.com>  Wed, 11 May 2022 16:29:34 +0100
 
 python-cryptography-vectors (3.4.8-1) unstable; urgency=medium
 
@@ -168,6 +210,32 @@ python-cryptography-vectors (2.8-1) unstable; urgency=medium
 
  -- Tristan Seligmann <mithrandi@debian.org>  Wed, 29 Jan 2020 16:09:15 +0200
 
+python-cryptography-vectors (3.3.2.really.2.6.1-1pexip3) pexip-bullseye; urgency=medium
+
+  * Bullseye rebuild for ARM64 inclusion
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Mon, 05 Sep 2022 10:35:21 +0100
+
+python-cryptography-vectors (3.3.2.really.2.6.1-1pexip2) pexip-bullseye; urgency=medium
+
+  * Main bullseye build
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Fri, 24 Jun 2022 14:04:21 +0100
+
+python-cryptography-vectors (3.3.2.really.2.6.1-1pexip1) pexip; urgency=medium
+
+  * Initial bullseye build.
+  * Remove all python2 packaging.
+  * Supercede bullseye versioning.
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Mon, 20 Jun 2022 17:03:26 +0100
+
+python-cryptography-vectors (2.6.1-1pexip1) pexip; urgency=medium
+
+  * New upstream release (for buster)
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Mon, 20 Jun 2022 17:02:08 +0100
+
 python-cryptography-vectors (2.6.1-1) unstable; urgency=medium
 
   [ Ondřej Nový ]
@@ -224,6 +292,12 @@ python-cryptography-vectors (1.9-1) unstable; urgency=medium
   * Bump Standards-Version to 4.0.0 (no changes needed).
 
  -- Tristan Seligmann <mithrandi@debian.org>  Tue, 20 Jun 2017 19:00:58 +0200
+
+python-cryptography-vectors (1.7.1-1~bpo8+1pexip1) pexip; urgency=medium
+
+  * Prepare Pexip packaging
+
+ -- John-Mark Bell <jmb@pexip.com>  Fri, 21 Jul 2017 18:10:23 +0000
 
 python-cryptography-vectors (1.7.1-1) unstable; urgency=medium
 
