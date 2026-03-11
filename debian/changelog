@@ -1,3 +1,9 @@
+python-cryptography-vectors (46.0.5-1+pexip25u1) pexip-trixie; urgency=medium
+
+  * New upstream release
+
+ -- Huw Jones <huw@pexip.com>  Wed, 11 Mar 2026 12:36:19 +0000
+
 python-cryptography-vectors (46.0.5-1) unstable; urgency=medium
 
   * New upstream release.
