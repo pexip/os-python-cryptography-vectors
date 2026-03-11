@@ -1,3 +1,10 @@
+python-cryptography-vectors (46.0.5-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-Version to 4.7.3.
+
+ -- Andrey Rakhmatullin <wrar@debian.org>  Sat, 14 Feb 2026 18:23:51 +0500
+
 python-cryptography-vectors (46.0.3-0+pexip25u5) pexip-trixie; urgency=medium
 
   * Fix maintainers/uploaders
@@ -28,6 +35,82 @@ python-cryptography-vectors (46.0.3-0+pexip25u1) pexip-trixie; urgency=medium
   * Import 46.0.3 from pypi
 
  -- Huw Jones <huw@pexip.com>  Tue, 04 Nov 2025 14:10:43 +0000
+
+python-cryptography-vectors (46.0.1-1) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Andrey Rakhmatullin <wrar@debian.org>  Thu, 20 Nov 2025 19:20:25 +0500
+
+python-cryptography-vectors (46.0.1-1~exp1) experimental; urgency=medium
+
+  [ Emmanuel Arias ]
+  * New upstream version
+  * Reorder sequence of d/control fields by cme (routine-update)
+
+  [ Andrey Rakhmatullin ]
+  * Upload to experimental.
+  * Roll back the build system from uv to flit.
+
+ -- Andrey Rakhmatullin <wrar@debian.org>  Thu, 13 Nov 2025 22:15:19 +0500
+
+python-cryptography-vectors (45.0.7-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Andrey Rakhmatullin <wrar@debian.org>  Thu, 13 Nov 2025 13:05:36 +0500
+
+python-cryptography-vectors (45.0.6-1) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Andrey Rakhmatullin <wrar@debian.org>  Mon, 03 Nov 2025 01:56:13 +0500
+
+python-cryptography-vectors (45.0.6-1~exp1) experimental; urgency=medium
+
+  * New upstream release.
+  * Upload to experimental.
+  * Drop Rules-Requires-Root.
+  * Bump Standards-Version to 4.7.2.
+
+ -- Andrey Rakhmatullin <wrar@debian.org>  Sat, 09 Aug 2025 15:51:35 +0500
+
+python-cryptography-vectors (44.0.2-1) unstable; urgency=medium
+
+  * Upload to unstable.
+  * Bump Standards-Version to 4.7.2.
+  * Drop Rules-Requires-Root and Priority fields.
+
+ -- Andrey Rakhmatullin <wrar@debian.org>  Thu, 18 Sep 2025 22:07:02 +0500
+
+python-cryptography-vectors (44.0.2-1~exp2) experimental; urgency=medium
+
+  * Update Breaks.
+
+ -- Andrey Rakhmatullin <wrar@debian.org>  Thu, 13 Mar 2025 11:13:41 +0500
+
+python-cryptography-vectors (44.0.2-1~exp1) experimental; urgency=medium
+
+  * New upstream release.
+  * Upload to experimental.
+
+ -- Andrey Rakhmatullin <wrar@debian.org>  Thu, 13 Mar 2025 11:06:52 +0500
+
+python-cryptography-vectors (44.0.0-1~exp1) experimental; urgency=medium
+
+  * New upstream release.
+  * Upload to experimental.
+
+ -- Andrey Rakhmatullin <wrar@debian.org>  Sat, 30 Nov 2024 15:21:22 +0500
+
+python-cryptography-vectors (43.0.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Add myself to Uploaders.
+  * Bump Standards-Version to 4.7.0.
+  * Drop unused ${shlibs:Depends}.
+
+ -- Andrey Rakhmatullin <wrar@debian.org>  Sun, 11 Aug 2024 00:16:03 +0500
 
 python-cryptography-vectors (42.0.5-2) unstable; urgency=medium
 

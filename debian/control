@@ -1,23 +1,21 @@
 Source: python-cryptography-vectors
+Standards-Version: 4.7.3
 Maintainer: Pexip AS <packaging@pexip.com>
 XSBC-Pexip-Original-Maintainer: Debian Python Team <team+python@tracker.debian.org>
 XSBC-Pexip-Original-Uploaders:
  Emmanuel Arias <eamanu@debian.org>,
- Andrey Rakhmatullin <wrar@debian.org>
+ Andrey Rakhmatullin <wrar@debian.org>,
 Section: python
-Priority: optional
+Testsuite: autopkgtest-pkg-python
 Build-Depends:
  debhelper-compat (= 13),
  dh-sequence-python3,
  flit,
  python3-all,
  pybuild-plugin-pyproject,
-Standards-Version: 4.7.0
-Homepage: https://cryptography.io/
-Vcs-Git: https://salsa.debian.org/python-team/packages/python-cryptography-vectors.git
 Vcs-Browser: https://salsa.debian.org/python-team/packages/python-cryptography-vectors
-Rules-Requires-Root: no
-Testsuite: autopkgtest-pkg-python
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-cryptography-vectors.git
+Homepage: https://cryptography.io/
 XS-Pexip-Upstream: http://deb.debian.org/debian/ forky
 
 Package: python3-cryptography-vectors
@@ -26,8 +24,8 @@ Depends:
  ${misc:Depends},
  ${python3:Depends},
 Breaks:
- python3-cryptography (<< 46.0.3~),
- python3-cryptography (>= 46.0.4~),
+ python3-cryptography (<< 46.0.5~),
+ python3-cryptography (>= 46.0.6~),
 Description: Test vectors for python-cryptography
  The test vectors for the cryptography library are rather large; thus, they are
  broken out into their own package so that users who do not need to run the
