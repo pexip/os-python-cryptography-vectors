@@ -22,8 +22,8 @@ Depends:
  ${misc:Depends},
  ${python3:Depends},
 Breaks:
- python3-cryptography (<< 46.0.5~),
- python3-cryptography (>= 46.0.6~),
+ python3-cryptography (<< 46.0.6~),
+ python3-cryptography (>= 46.0.7~),
 Description: Test vectors for python-cryptography
  The test vectors for the cryptography library are rather large; thus, they are
  broken out into their own package so that users who do not need to run the

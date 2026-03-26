@@ -1,6 +1,6 @@
 Metadata-Version: 2.3
 Name: cryptography-vectors
-Version: 46.0.5
+Version: 46.0.6
 Summary: Test vectors for the cryptography package.
 Author: The Python Cryptographic Authority and individual contributors
 Author-email: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
