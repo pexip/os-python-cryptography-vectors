@@ -1,3 +1,9 @@
+python-cryptography-vectors (46.0.6-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Andrey Rakhmatullin <wrar@debian.org>  Fri, 27 Mar 2026 00:55:26 +0500
+
 python-cryptography-vectors (46.0.5-1+pexip25u2) pexip-trixie; urgency=medium
 
   * d/p: make test RSA keys SP800-56b compatible.
